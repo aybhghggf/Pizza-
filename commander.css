@@ -1,0 +1,45 @@
+body{
+    background-image: url(pizzaback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-transform: uppercase;
+
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, select, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+.logo2{
+    height: 200px;
+    width: 200px;
+}
